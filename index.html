@@ -1,1 +1,1267 @@
-Mudasir syed
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mudasir - AI Researcher, Full Stack Developer, Mobile App Specialist. MS in AI Convergence from Soongsil University. 9+ years of experience in AI/ML, mobile, and web development.">
+    <meta name="keywords" content="AI Researcher, Full Stack Developer, Mobile Development, Machine Learning, Flutter, iOS, Android, RAG, LLM, Deep Learning, React, Node.js">
+    <meta name="author" content="Mudasir Syed">
+    
+    <title>Mudasir - AI Researcher & Full Stack Developer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p class="loader-text">Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="en" title="English">
+            <img src="https://flagcdn.com/w40/us.png" alt="English" width="20" height="15"> EN
+        </button>
+        <button class="lang-btn" data-lang="ko" title="한국어">
+            <img src="https://flagcdn.com/w40/kr.png" alt="한국어" width="20" height="15"> KR
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <span class="logo-text">Mudasir</span>
+                    <span class="logo-dot">.</span>
+                </a>
+                
+                <div class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link active" data-translate="nav.home">Home</a>
+                    <a href="#about" class="nav-link" data-translate="nav.about">About</a>
+                    <a href="#research" class="nav-link" data-translate="nav.research">Research</a>
+                    <a href="#skills" class="nav-link" data-translate="nav.skills">Skills</a>
+                    <a href="#projects" class="nav-link" data-translate="nav.projects">Projects</a>
+                    <a href="#contact" class="nav-link" data-translate="nav.contact">Contact</a>
+                </div>
+                
+                <div class="nav-actions">
+                    <a href="docs/Mudasir-Soongsil-University.pdf" class="btn btn-primary" download data-translate="nav.download">
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-particles"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <p class="hero-greeting" data-translate="hero.greeting">Hi there, I'm</p>
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Mudasir</span>
+                    </h1>
+                    <h2 class="hero-subtitle" data-translate="hero.subtitle">
+                        AI Researcher | Full Stack Developer | Mobile App Specialist
+                    </h2>
+                    <p class="hero-description" data-translate="hero.description">
+                        Driven researcher and developer passionate about bridging cutting-edge AI technology 
+                        with real-world applications through innovative software solutions.
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="stat-icon"><i class="fas fa-briefcase"></i></div>
+                            <h3 class="stat-number">9+</h3>
+                            <p class="stat-label" data-translate="hero.years">Years Experience</p>
+                        </div>
+                        <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+                            <h3 class="stat-number">20+</h3>
+                            <p class="stat-label" data-translate="hero.projects">Projects Delivered</p>
+                        </div>
+                        <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="stat-icon"><i class="fas fa-file-alt"></i></div>
+                            <h3 class="stat-number">2</h3>
+                            <p class="stat-label" data-translate="hero.publications">Publications</p>
+                        </div>
+                        <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="stat-icon"><i class="fas fa-robot"></i></div>
+                            <h3 class="stat-number">5</h3>
+                            <p class="stat-label" data-translate="hero.models">AI Models</p>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary btn-large" data-translate="hero.contact">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                        <a href="#projects" class="btn btn-secondary btn-large" data-translate="hero.work">
+                            <i class="fas fa-briefcase"></i> View My Work
+                        </a>
+                    </div>
+                    
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/mudasir-sayed/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/mudasir13cs" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://huggingface.co/mudasir13cs" class="social-link" target="_blank" rel="noopener" aria-label="Hugging Face">
+                            <i class="fas fa-robot"></i>
+                        </a>
+                        <a href="https://orcid.org/0009-0000-1438-4736" class="social-link" target="_blank" rel="noopener" aria-label="ORCID">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                        <a href="mailto:mudasir13cs@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image" data-aos="fade-left">
+                    <div class="profile-card">
+                        <div class="profile-img-wrapper">
+                            <img src="docs/mudasir.jpg" alt="Mudasir Profile Photo" class="profile-img" loading="lazy">
+                            <div class="profile-border"></div>
+                        </div>
+                        <div class="profile-info">
+                            <div class="profile-status">
+                                <span class="status-dot"></span>
+                                <span data-translate="hero.available">Available for opportunities</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Seoul, South Korea</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span data-translate="hero.degree">MS in AI Convergence</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-university"></i>
+                                <span>Soongsil University</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p data-translate="hero.scroll">Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-translate="about.tag">Who I Am</span>
+                <h2 class="section-title" data-translate="about.title">About Me</h2>
+                <p class="section-description" data-translate="about.description">
+                    Combining academic research excellence with practical industry experience
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3 class="about-heading" data-translate="about.heading">
+                        AI Researcher & Full Stack Developer with 9+ Years of Experience
+                    </h3>
+                    
+                    <p class="about-paragraph" data-translate="about.intro">
+                        I'm a passionate technologist currently based in Seoul, South Korea, where I work as a Research 
+                        Assistant at Soongsil University while completing my MS in AI Convergence. My journey spans from 
+                        Pakistan to South Korea, combining rigorous academic research with hands-on software development.
+                    </p>
+                    
+                    <p class="about-paragraph" data-translate="about.research">
+                        My research focuses on developing advanced retrieval systems that adapt to different document 
+                        domains. I specialize in LLM fine-tuning, Agentic AI, RAG architectures, and have published 
+                        2 peer-reviewed papers in international journals. I've also developed and deployed 5 AI models 
+                        on Hugging Face with optimization techniques like GGUF quantization achieving 75% size reduction.
+                    </p>
+                    
+                    <p class="about-paragraph" data-translate="about.development">
+                        On the development side, I've built 20+ production applications across iOS, Android, Flutter, 
+                        and web platforms. From AI-powered digital signage to property management systems, I bring ideas 
+                        to life with clean, scalable code. I also maintain 2 open-source packages on pub.dev with 350+ 
+                        weekly downloads.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item" data-aos="zoom-in" data-aos-delay="100">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-translate="about.highlight1">Published Researcher</span>
+                        </div>
+                        <div class="highlight-item" data-aos="zoom-in" data-aos-delay="200">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-translate="about.highlight2">Full Stack Expert</span>
+                        </div>
+                        <div class="highlight-item" data-aos="zoom-in" data-aos-delay="300">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-translate="about.highlight3">Mobile Specialist</span>
+                        </div>
+                        <div class="highlight-item" data-aos="zoom-in" data-aos-delay="400">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-translate="about.highlight4">Team Leader</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-buttons">
+                        <a href="docs/Mudasir-Soongsil-University.pdf" class="btn btn-primary" download data-translate="about.resume">
+                            <i class="fas fa-file-download"></i> Download Resume (EN)
+                        </a>
+                        <a href="docs/무다시르_숭실대학교.pdf" class="btn btn-secondary" download data-translate="about.resume_kr">
+                            <i class="fas fa-file-download"></i> Download Resume (KR)
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="experience-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-flask"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="timeline-date" data-translate="about.exp1.date">March 2024 - Present</span>
+                                <h4 data-translate="about.exp1.title">Research Assistant</h4>
+                                <p data-translate="about.exp1.company">Soongsil University, Seoul</p>
+                                <ul class="timeline-details">
+                                    <li data-translate="about.exp1.detail1">LLM fine-tuning & RAG systems</li>
+                                    <li data-translate="about.exp1.detail2">Published 2 research papers</li>
+                                    <li data-translate="about.exp1.detail3">Teaching Assistant</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="timeline-date" data-translate="about.exp2.date">March 2024 - Present</span>
+                                <h4 data-translate="about.exp2.title">Full Stack Developer</h4>
+                                <p data-translate="about.exp2.company">Cublick Digital Co., Ltd.</p>
+                                <ul class="timeline-details">
+                                    <li data-translate="about.exp2.detail1">AI-powered digital signage</li>
+                                    <li data-translate="about.exp2.detail2">Flutter & Native Android</li>
+                                    <li data-translate="about.exp2.detail3">Node.js backend development</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="timeline-date" data-translate="about.exp3.date">June 2023 - February 2024</span>
+                                <h4 data-translate="about.exp3.title">Team Lead & Sr. Mobile Developer</h4>
+                                <p data-translate="about.exp3.company">Progatix, Karachi</p>
+                                <ul class="timeline-details">
+                                    <li data-translate="about.exp3.detail1">Led Agile development team</li>
+                                    <li data-translate="about.exp3.detail2">Native & hybrid mobile apps</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="research section section-dark" id="research">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-translate="research.tag">Academic Excellence</span>
+                <h2 class="section-title" data-translate="research.title">Research & Publications</h2>
+                <p class="section-description" data-translate="research.description">
+                    Contributing to cutting-edge AI research with published papers and deployed models
+                </p>
+            </div>
+            
+            <!-- Education -->
+            <div class="research-subsection" data-aos="fade-up">
+                <h3 class="subsection-title" data-translate="research.education">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </h3>
+                
+                <div class="education-grid">
+                    <div class="edu-card" data-aos="flip-left" data-aos-delay="100">
+                        <div class="edu-icon"><i class="fas fa-medal"></i></div>
+                        <h4 data-translate="research.ms.degree">Master of Science: AI Convergence</h4>
+                        <p class="edu-institution">Soongsil University, Seoul, South Korea</p>
+                        <p class="edu-year" data-translate="research.ms.year">2024 - 2026 (Completed January 2026)</p>
+                        <p class="edu-thesis"><strong data-translate="research.thesis">Thesis:</strong></p>
+                        <p class="thesis-title" data-translate="research.ms.thesis">Field-Adaptive Dense Retrieval of Structured Documents</p>
+                    </div>
+                    
+                    <div class="edu-card" data-aos="flip-left" data-aos-delay="200">
+                        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h4 data-translate="research.ms_cs.degree">Master of Science: Computer Science</h4>
+                        <p class="edu-institution">Muhammad Ali Jinnah University</p>
+                        <p class="edu-year" data-translate="research.ms_cs.year">2018, Karachi, Pakistan</p>
+                    </div>
+                    
+                    <div class="edu-card" data-aos="flip-left" data-aos-delay="300">
+                        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h4 data-translate="research.bs.degree">Bachelor of Computer Science</h4>
+                        <p class="edu-institution">University of Sindh</p>
+                        <p class="edu-year" data-translate="research.bs.year">2015, Jamshoro, Pakistan</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Publications -->
+            <div class="research-subsection" data-aos="fade-up">
+                <h3 class="subsection-title" data-translate="research.publications">
+                    <i class="fas fa-file-alt"></i> Publications
+                </h3>
+                
+                <div class="publications-list">
+                    <div class="publication-card" data-aos="fade-up">
+                        <div class="pub-badge">Featured Paper</div>
+                        <h4 class="pub-title" data-translate="research.paper1.title">
+                            Field-Adaptive Dense Retrieval of Structured Documents
+                        </h4>
+                        <p class="pub-authors">
+                            <strong>Syed Mudasir</strong>, Abdul Waheed Agha, Syed Muzamil Hussain, Sun-Tan Chung
+                        </p>
+                        <p class="pub-venue">
+                            <i class="fas fa-book"></i> <span data-translate="research.paper1.journal">Journal of the Korea Multimedia Society</span>
+                        </p>
+                        <p class="pub-details">Vol. 28, No. 8, pp. 1001–1014, August 2025</p>
+                        <p class="pub-abstract" data-translate="research.paper1.abstract">
+                            This paper presents a novel approach to dense retrieval that adapts to different document 
+                            fields and structures, improving retrieval accuracy across diverse document types.
+                        </p>
+                        <div class="pub-actions">
+                            <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12352544" 
+                               class="btn btn-small btn-primary" target="_blank" rel="noopener" data-translate="research.view">
+                                <i class="fas fa-external-link-alt"></i> View Paper
+                            </a>
+                            <a href="docs/Field-Adaptive%20Dense%20Retrieval%20of%20Structured%20Documents.pdf" 
+                               class="btn btn-small btn-secondary" download data-translate="research.download">
+                                <i class="fas fa-download"></i> Download PDF
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="pub-badge">Co-Author</div>
+                        <h4 class="pub-title" data-translate="research.paper2.title">
+                            Robust Text-to-Cypher Using CoBGT Model
+                        </h4>
+                        <p class="pub-authors">
+                            Tran, Q.-B.-H.; Waheed Agha, A.; Chung, S.-T.
+                        </p>
+                        <p class="pub-venue">
+                            <i class="fas fa-book"></i> <span data-translate="research.paper2.journal">Applied Sciences</span>
+                        </p>
+                        <p class="pub-details">Vol. 14, No. 17, article 7881 | DOI: 10.3390/app14177881 | September 2024</p>
+                        <p class="pub-abstract" data-translate="research.paper2.abstract">
+                            Presents the CoBGT model combining BERT, GraphSAGE, and Transformer architectures 
+                            for converting natural language queries to Cypher queries.
+                        </p>
+                        <div class="pub-actions">
+                            <a href="https://www.mdpi.com/2076-3417/14/17/7881" 
+                               class="btn btn-small btn-primary" target="_blank" rel="noopener" data-translate="research.view">
+                                <i class="fas fa-external-link-alt"></i> View Paper
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- AI Models -->
+            <div class="research-subsection" data-aos="fade-up">
+                <h3 class="subsection-title" data-translate="research.models">
+                    <i class="fas fa-brain"></i> AI Models on Hugging Face
+                </h3>
+                <p class="subsection-description" data-translate="research.models_desc">
+                    5 production-ready AI models for field-adaptive dense retrieval deployed on Hugging Face
+                </p>
+                
+                <div class="models-grid">
+                    <div class="model-card" data-aos="zoom-in">
+                        <div class="model-header">
+                            <div class="model-icon"><i class="fas fa-brain"></i></div>
+                            <span class="model-badge">22.7M params</span>
+                        </div>
+                        <h4>Field-adaptive-bi-encoder</h4>
+                        <p class="model-type">Sentence Similarity</p>
+                        <p class="model-desc" data-translate="research.model1">
+                            Bi-encoder model for field-adaptive document retrieval with domain-specific fine-tuning
+                        </p>
+                        <a href="https://huggingface.co/mudasir13cs/Field-adaptive-bi-encoder" 
+                           class="model-link" target="_blank" rel="noopener">
+                            <i class="fas fa-external-link-alt"></i> <span data-translate="research.view_model">View Model</span>
+                        </a>
+                    </div>
+                    
+                    <div class="model-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="model-header">
+                            <div class="model-icon"><i class="fas fa-robot"></i></div>
+                            <span class="model-badge">Transformer</span>
+                        </div>
+                        <h4>Field-adaptive-query-generator</h4>
+                        <p class="model-type">Text Generation</p>
+                        <p class="model-desc" data-translate="research.model2">
+                            Generates domain-specific queries for document retrieval
+                        </p>
+                        <a href="https://huggingface.co/mudasir13cs/Field-adaptive-query-generator" 
+                           class="model-link" target="_blank" rel="noopener">
+                            <i class="fas fa-external-link-alt"></i> <span data-translate="research.view_model">View Model</span>
+                        </a>
+                    </div>
+                    
+                    <div class="model-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="model-header">
+                            <div class="model-icon"><i class="fas fa-microchip"></i></div>
+                            <span class="model-badge">4B params</span>
+                        </div>
+                        <h4>Query-generator-gguf</h4>
+                        <p class="model-type">GGUF Optimized</p>
+                        <p class="model-desc" data-translate="research.model3">
+                            Quantized version with 75% size reduction for efficient deployment
+                        </p>
+                        <a href="https://huggingface.co/mudasir13cs/Field-adaptive-query-generator-gguf" 
+                           class="model-link" target="_blank" rel="noopener">
+                            <i class="fas fa-external-link-alt"></i> <span data-translate="research.view_model">View Model</span>
+                        </a>
+                    </div>
+                    
+                    <div class="model-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="model-header">
+                            <div class="model-icon"><i class="fas fa-file-alt"></i></div>
+                            <span class="model-badge">LLM</span>
+                        </div>
+                        <h4>Description-generator</h4>
+                        <p class="model-type">Text Generation</p>
+                        <p class="model-desc" data-translate="research.model4">
+                            Generates field-aware document descriptions and summaries
+                        </p>
+                        <a href="https://huggingface.co/mudasir13cs/Field-adaptive-description-generator" 
+                           class="model-link" target="_blank" rel="noopener">
+                            <i class="fas fa-external-link-alt"></i> <span data-translate="research.view_model">View Model</span>
+                        </a>
+                    </div>
+                    
+                    <div class="model-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="model-header">
+                            <div class="model-icon"><i class="fas fa-compress"></i></div>
+                            <span class="model-badge">Optimized</span>
+                        </div>
+                        <h4>Description-generator-gguf</h4>
+                        <p class="model-type">GGUF Format</p>
+                        <p class="model-desc" data-translate="research.model5">
+                            Production-ready optimized version for real-time applications
+                        </p>
+                        <a href="https://huggingface.co/mudasir13cs/Field-adaptive-description-generator-gguf" 
+                           class="model-link" target="_blank" rel="noopener">
+                            <i class="fas fa-external-link-alt"></i> <span data-translate="research.view_model">View Model</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="models-cta">
+                    <a href="https://huggingface.co/mudasir13cs" class="btn btn-primary btn-large" target="_blank" rel="noopener" data-translate="research.all_models">
+                        <i class="fas fa-robot"></i> View All Models on Hugging Face
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-translate="skills.tag">What I Do</span>
+                <h2 class="section-title" data-translate="skills.title">Skills & Expertise</h2>
+                <p class="section-description" data-translate="skills.description">
+                    Comprehensive technical skills across AI/ML, mobile, and web development
+                </p>
+            </div>
+            
+            <div class="skills-content">
+                <!-- Skill Categories -->
+                <div class="skill-categories" data-aos="fade-up">
+                    <button class="category-btn active" data-category="ai">
+                        <i class="fas fa-brain"></i>
+                        <span data-translate="skills.ai">AI & Machine Learning</span>
+                    </button>
+                    <button class="category-btn" data-category="mobile">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span data-translate="skills.mobile">Mobile Development</span>
+                    </button>
+                    <button class="category-btn" data-category="web">
+                        <i class="fas fa-globe"></i>
+                        <span data-translate="skills.web">Web Development</span>
+                    </button>
+                    <button class="category-btn" data-category="database">
+                        <i class="fas fa-database"></i>
+                        <span data-translate="skills.database">Databases</span>
+                    </button>
+                    <button class="category-btn" data-category="tools">
+                        <i class="fas fa-tools"></i>
+                        <span data-translate="skills.tools">Tools & DevOps</span>
+                    </button>
+                </div>
+                
+                <!-- AI & ML Skills -->
+                <div class="skill-group active" data-group="ai">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="fade-up">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <h4>Large Language Models</h4>
+                            <p>GPT-4, LLaMA, BERT, Fine-tuning, Prompt Engineering</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 95%"></div>
+                                <span class="level-text">95%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                            <h4>RAG Systems</h4>
+                            <p>Architecture, Implementation, Optimization, Production</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 90%"></div>
+                                <span class="level-text">90%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                            <h4>Agentic AI</h4>
+                            <p>Autonomous agents, Multi-step reasoning, Task planning</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 85%"></div>
+                                <span class="level-text">85%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                            <h4>TensorFlow & PyTorch</h4>
+                            <p>Deep learning, Neural networks, Model training</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 88%"></div>
+                                <span class="level-text">88%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="skill-icon"><i class="fas fa-search"></i></div>
+                            <h4>Dense Retrieval</h4>
+                            <p>Bi-encoders, Cross-encoders, Semantic search</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 92%"></div>
+                                <span class="level-text">92%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                            <div class="skill-icon"><i class="fas fa-compress"></i></div>
+                            <h4>Model Optimization</h4>
+                            <p>GGUF quantization, Pruning, 75% size reduction</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 87%"></div>
+                                <span class="level-text">87%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mobile Development Skills -->
+                <div class="skill-group" data-group="mobile">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="fade-up">
+                            <div class="skill-icon"><i class="fab fa-apple"></i></div>
+                            <h4>iOS Development</h4>
+                            <p>Swift, Objective-C, SwiftUI, UIKit, CoreData</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 90%"></div>
+                                <span class="level-text">90%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-icon"><i class="fab fa-android"></i></div>
+                            <h4>Android Development</h4>
+                            <p>Kotlin, Java, Jetpack Compose, Material Design</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 90%"></div>
+                                <span class="level-text">90%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <h4>Flutter</h4>
+                            <p>Cross-platform, Dart, State management, Animations</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 95%"></div>
+                                <span class="level-text">95%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-icon"><i class="fas fa-bluetooth-b"></i></div>
+                            <h4>Bluetooth Low Energy</h4>
+                            <p>BLE, CoreBluetooth, Device communication</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 85%"></div>
+                                <span class="level-text">85%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="skill-icon"><i class="fas fa-map-marked-alt"></i></div>
+                            <h4>Location Services</h4>
+                            <p>GPS, Google Maps, Apple Maps, Geofencing</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 88%"></div>
+                                <span class="level-text">88%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                            <div class="skill-icon"><i class="fas fa-credit-card"></i></div>
+                            <h4>Payment Integration</h4>
+                            <p>Stripe, PayPal, Apple Pay, Google Pay</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 90%"></div>
+                                <span class="level-text">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Development Skills -->
+                <div class="skill-group" data-group="web">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="fade-up">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <h4>Node.js</h4>
+                            <p>NestJS, Express, RESTful APIs, WebSocket</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 92%"></div>
+                                <span class="level-text">92%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-icon"><i class="fab fa-php"></i></div>
+                            <h4>PHP</h4>
+                            <p>Laravel, CodeIgniter, WordPress, Symfony</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 90%"></div>
+                                <span class="level-text">90%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-icon"><i class="fab fa-angular"></i></div>
+                            <h4>Angular</h4>
+                            <p>TypeScript, RxJS, NgRx, Material Design</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 85%"></div>
+                                <span class="level-text">85%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <h4>React</h4>
+                            <p>Components, Hooks, Redux, Context API</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 80%"></div>
+                                <span class="level-text">80%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <h4>JavaScript/TypeScript</h4>
+                            <p>ES6+, Async/Await, Promises, Type safety</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 93%"></div>
+                                <span class="level-text">93%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <h4>HTML5/CSS3</h4>
+                            <p>Responsive design, Flexbox, Grid, Animations</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 95%"></div>
+                                <span class="level-text">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Database Skills -->
+                <div class="skill-group" data-group="database">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="fade-up">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>MySQL</h4>
+                            <p>Complex queries, Optimization, Stored procedures</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 90%"></div>
+                                <span class="level-text">90%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-icon"><i class="fas fa-leaf"></i></div>
+                            <h4>MongoDB</h4>
+                            <p>NoSQL, Document stores, Aggregation pipelines</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 88%"></div>
+                                <span class="level-text">88%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-icon"><i class="fas fa-vector-square"></i></div>
+                            <h4>Vector Databases</h4>
+                            <p>FAISS, Pinecone, Weaviate, Embeddings</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 85%"></div>
+                                <span class="level-text">85%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                            <h4>Graph Databases</h4>
+                            <p>Neo4j, Cypher queries, Knowledge graphs</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 80%"></div>
+                                <span class="level-text">80%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="skill-icon"><i class="fas fa-fire-alt"></i></div>
+                            <h4>Firebase</h4>
+                            <p>Realtime DB, Firestore, Auth, Cloud Functions</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 87%"></div>
+                                <span class="level-text">87%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                            <div class="skill-icon"><i class="fas fa-elephant"></i></div>
+                            <h4>PostgreSQL</h4>
+                            <p>Advanced SQL, JSON support, PostGIS</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 85%"></div>
+                                <span class="level-text">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & DevOps -->
+                <div class="skill-group" data-group="tools">
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="fade-up">
+                            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                            <h4>Git & GitHub</h4>
+                            <p>Version control, Collaboration, CI/CD workflows</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 95%"></div>
+                                <span class="level-text">95%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                            <h4>Docker</h4>
+                            <p>Containerization, Docker Compose, Multi-stage builds</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 85%"></div>
+                                <span class="level-text">85%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                            <h4>AWS</h4>
+                            <p>EC2, S3, Lambda, CloudFront, RDS</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 80%"></div>
+                                <span class="level-text">80%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-icon"><i class="fas fa-infinity"></i></div>
+                            <h4>CI/CD</h4>
+                            <p>GitHub Actions, GitLab CI, Jenkins, Automation</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 88%"></div>
+                                <span class="level-text">88%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+                            <h4>Agile/Scrum</h4>
+                            <p>Project management, Jira, Sprint planning</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 90%"></div>
+                                <span class="level-text">90%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                            <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+                            <h4>IDEs & Tools</h4>
+                            <p>VS Code, Xcode, Android Studio, PyCharm</p>
+                            <div class="skill-level">
+                                <div class="level-bar" style="--skill-width: 95%"></div>
+                                <span class="level-text">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section section-dark" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-translate="projects.tag">Portfolio</span>
+                <h2 class="section-title" data-translate="projects.title">Featured Projects</h2>
+                <p class="section-description" data-translate="projects.description">
+                    20+ production applications across mobile and web platforms
+                </p>
+            </div>
+            
+            <!-- Project Filters -->
+            <div class="project-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all" data-translate="projects.all">All Projects</button>
+                <button class="filter-btn" data-filter="mobile" data-translate="projects.mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="ai" data-translate="projects.ai">AI & ML</button>
+                <button class="filter-btn" data-filter="web" data-translate="projects.web">Web Apps</button>
+                <button class="filter-btn" data-filter="package" data-translate="projects.packages">Open Source</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Featured AI Project -->
+                <div class="project-card featured" data-filter="ai" data-aos="fade-up">
+                    <div class="project-featured-badge">Featured</div>
+                    <div class="project-icon"><i class="fas fa-brain"></i></div>
+                    <h3 class="project-title">Field-Adaptive Dense Retrieval</h3>
+                    <p class="project-description" data-translate="projects.project1">
+                        Advanced AI research project implementing dense retrieval systems that adapt to different 
+                        document domains. Published in international journal with 5 deployed models on Hugging Face.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>PyTorch</span>
+                        <span>Transformers</span>
+                        <span>GGUF</span>
+                        <span>RAG</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://huggingface.co/mudasir13cs" target="_blank" rel="noopener" class="project-btn">
+                            <i class="fas fa-robot"></i> View Models
+                        </a>
+                        <a href="docs/Field-Adaptive%20Dense%20Retrieval%20of%20Structured%20Documents.pdf" download class="project-btn">
+                            <i class="fas fa-file-pdf"></i> Paper
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- HomeTrumpeter -->
+                <div class="project-card" data-filter="mobile" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-icon"><i class="fas fa-home"></i></div>
+                    <h3 class="project-title">HomeTrumpeter</h3>
+                    <p class="project-description" data-translate="projects.project2">
+                        Cross-platform property management system built with Flutter. Single codebase for Android, 
+                        iOS, and Web with Stripe payments, Certn background checks, and video consultation.
+                    </p>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>Firebase</span>
+                        <span>Stripe</span>
+                        <span>REST API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://hometrumpeter.com/" target="_blank" rel="noopener" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- SES Live -->
+                <div class="project-card" data-filter="mobile" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3 class="project-title">SES Live - Security Tracking</h3>
+                    <p class="project-description" data-translate="projects.project3">
+                        Real-time security guard tracking system with GPS, background operation, battery optimization, 
+                        and admin approval workflows. Native Android & iOS implementation.
+                    </p>
+                    <div class="project-tech">
+                        <span>Swift</span>
+                        <span>Kotlin</span>
+                        <span>GPS</span>
+                        <span>Real-time</span>
+                        <span>BLE</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://sessecurity.ltd/" target="_blank" rel="noopener" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> View Website
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- InfoBulletin Player -->
+                <div class="project-card" data-filter="mobile ai" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-icon"><i class="fas fa-tv"></i></div>
+                    <h3 class="project-title">InfoBulletin Player</h3>
+                    <p class="project-description" data-translate="projects.project4">
+                        AI-powered digital signage solution with content recommendation, real-time analytics, 
+                        and remote management for multiple screens across different locations.
+                    </p>
+                    <div class="project-tech">
+                        <span>Android</span>
+                        <span>AI/ML</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Real-time</span>
+                    </div>
+                </div>
+                
+                <!-- emoji_text_field -->
+                <div class="project-card" data-filter="package" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-icon"><i class="fas fa-smile"></i></div>
+                    <h3 class="project-title">emoji_text_field</h3>
+                    <p class="project-description" data-translate="projects.project5">
+                        Universal emoji picker for Flutter with 2700+ emojis, 35+ categories, smart search, 
+                        and cross-platform support. 250+ weekly downloads on pub.dev.
+                    </p>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>Open Source</span>
+                        <span>UI Library</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://pub.dev/packages/emoji_text_field" target="_blank" rel="noopener" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> View Package
+                        </a>
+                        <a href="https://github.com/mudasir13cs/emoji_text_field" target="_blank" rel="noopener" class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- dart_data_parser -->
+                <div class="project-card" data-filter="package" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-icon"><i class="fas fa-code"></i></div>
+                    <h3 class="project-title">dart_data_parser</h3>
+                    <p class="project-description" data-translate="projects.project6">
+                        Comprehensive data parsing utility library for Dart with zero dependencies. Type conversions, 
+                        validation, encoding, and cross-platform support. 100+ weekly downloads.
+                    </p>
+                    <div class="project-tech">
+                        <span>Dart</span>
+                        <span>Open Source</span>
+                        <span>Utility</span>
+                        <span>Zero Dependencies</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://pub.dev/packages/dart_data_parser" target="_blank" rel="noopener" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> View Package
+                        </a>
+                        <a href="https://github.com/mudasir13cs/dart_data_parser" target="_blank" rel="noopener" class="project-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Let's Procure -->
+                <div class="project-card" data-filter="mobile" data-aos="fade-up">
+                    <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3 class="project-title">Let's Procure</h3>
+                    <p class="project-description" data-translate="projects.project7">
+                        Enterprise procurement reporting system with real-time tracking, approval workflows, 
+                        and comprehensive analytics. Built with Flutter for iOS and Android.
+                    </p>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>REST API</span>
+                        <span>Analytics</span>
+                        <span>Enterprise</span>
+                    </div>
+                </div>
+                
+                <!-- HubPro -->
+                <div class="project-card" data-filter="mobile" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-icon"><i class="fas fa-school"></i></div>
+                    <h3 class="project-title">HubPro - School Management</h3>
+                    <p class="project-description" data-translate="projects.project8">
+                        Multi-tenant school management platform enabling parents to monitor academic progress 
+                        across multiple institutions with real-time updates and communication tools.
+                    </p>
+                    <div class="project-tech">
+                        <span>Hybrid App</span>
+                        <span>Real-time</span>
+                        <span>Multi-tenant</span>
+                        <span>Push Notifications</span>
+                    </div>
+                </div>
+                
+                <!-- Pool Synergy -->
+                <div class="project-card" data-filter="mobile" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-icon"><i class="fab fa-bluetooth-b"></i></div>
+                    <h3 class="project-title">Pool Synergy Calculator</h3>
+                    <p class="project-description" data-translate="projects.project9">
+                        Native iOS/Android app with BLE integration for Water Link Spin Touch devices. 
+                        Real-time water chemistry readings and PDF report generation.
+                    </p>
+                    <div class="project-tech">
+                        <span>iOS Native</span>
+                        <span>Android Native</span>
+                        <span>BLE</span>
+                        <span>CoreBluetooth</span>
+                    </div>
+                </div>
+                
+                <!-- More Projects Link -->
+                <div class="project-card more-projects" data-aos="fade-up">
+                    <div class="more-icon"><i class="fas fa-plus-circle"></i></div>
+                    <h3>10+ More Projects</h3>
+                    <p data-translate="projects.more">
+                        Including LolyHub, Rent College Pads, Auto Service Repair, Tap n' Save, 
+                        HubPro Tracking, INDEL, and various web applications.
+                    </p>
+                    <a href="https://github.com/mudasir13cs" target="_blank" rel="noopener" class="btn btn-primary">
+                        <i class="fab fa-github"></i> View All on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-translate="contact.tag">Get In Touch</span>
+                <h2 class="section-title" data-translate="contact.title">Let's Work Together</h2>
+                <p class="section-description" data-translate="contact.description">
+                    Open for collaboration opportunities, research projects, and freelance work
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4 data-translate="contact.email">Email</h4>
+                        <p><a href="mailto:mudasir13cs@gmail.com">mudasir13cs@gmail.com</a></p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4 data-translate="contact.phone">Phone</h4>
+                        <p><a href="tel:+821025030971">+82 (102) 503-0971</a></p>
+                        <p><a href="tel:+923042515191">+92 (304) 251-5191</a></p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4 data-translate="contact.location">Location</h4>
+                        <p>Seoul, South Korea 🇰🇷</p>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4 data-translate="contact.social">Connect With Me</h4>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/mudasir-sayed/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/mudasir13cs" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://huggingface.co/mudasir13cs" class="social-link" target="_blank" rel="noopener" aria-label="Hugging Face">
+                                <i class="fas fa-robot"></i>
+                            </a>
+                            <a href="https://orcid.org/0009-0000-1438-4736" class="social-link" target="_blank" rel="noopener" aria-label="ORCID">
+                                <i class="fab fa-orcid"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="name" id="name" placeholder="Your Name" required data-translate-placeholder="contact.form.name">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" placeholder="Your Email" required data-translate-placeholder="contact.form.email">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" name="subject" id="subject" placeholder="Subject" required data-translate-placeholder="contact.form.subject">
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="6" placeholder="Your Message" required data-translate-placeholder="contact.form.message"></textarea>
+                            <i class="fas fa-comment-alt"></i>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i>
+                            <span data-translate="contact.form.send">Send Message</span>
+                        </button>
+                        
+                        <div class="form-status" id="formStatus"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3 class="footer-name">Mudasir</h3>
+                    <p class="footer-tagline" data-translate="footer.tagline">AI Researcher & Full Stack Developer</p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/mudasir-sayed/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/mudasir13cs" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://huggingface.co/mudasir13cs" target="_blank" rel="noopener" aria-label="Hugging Face">
+                            <i class="fas fa-robot"></i>
+                        </a>
+                        <a href="mailto:mudasir13cs@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 data-translate="footer.quick">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about" data-translate="footer.about">About</a></li>
+                        <li><a href="#research" data-translate="footer.research">Research</a></li>
+                        <li><a href="#skills" data-translate="footer.skills">Skills</a></li>
+                        <li><a href="#projects" data-translate="footer.projects">Projects</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 data-translate="footer.resources">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="docs/Mudasir-Soongsil-University.pdf" download data-translate="footer.resume_en">Resume (EN)</a></li>
+                        <li><a href="docs/무다시르_숭실대학교.pdf" download data-translate="footer.resume_kr">Resume (KR)</a></li>
+                        <li><a href="https://github.com/mudasir13cs" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="https://huggingface.co/mudasir13cs" target="_blank" rel="noopener">Hugging Face</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 data-translate="footer.contact_title">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:mudasir13cs@gmail.com">mudasir13cs@gmail.com</a></li>
+                        <li><a href="tel:+821025030971">+82 (102) 503-0971</a></li>
+                        <li>Seoul, South Korea</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright" data-translate="footer.copyright">
+                    © 2026 Mudasir. All rights reserved.
+                </p>
+                <p class="footer-made">
+                    <span data-translate="footer.made">Made with</span> <i class="fas fa-heart"></i> <span data-translate="footer.in">in Seoul</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
