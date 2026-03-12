@@ -543,15 +543,18 @@ a:hover {
 
 .hero-social {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     gap: var(--spacing-md);
 }
 
 .social-link {
-    width: 45px;
-    height: 45px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
     background: var(--card-bg);
     border-radius: var(--radius-md);
     color: var(--text-secondary);

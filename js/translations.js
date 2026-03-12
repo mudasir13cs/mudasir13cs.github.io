@@ -20,7 +20,7 @@ const translations = {
         },
         hero: {
             greeting: "Hi there, I'm",
-            subtitle: "AI Researcher | Full Stack Developer | Mobile App Specialist",
+            subtitle: "AI Engineer / Multimodal AI Developer / AI Researcher / Full-Stack / Mobile App Specialist",
             description: "Driven researcher and developer passionate about bridging cutting-edge AI technology with real-world applications through innovative software solutions.",
             years: "Years Experience",
             projects: "Projects Delivered",
@@ -29,15 +29,15 @@ const translations = {
             contact: "Get In Touch",
             work: "View My Work",
             available: "Available for opportunities",
-            degree: "MS in AI Convergence",
+            degree: "MS AI Convergence (4.28/4.5)",
             scroll: "Scroll to explore"
         },
         about: {
             tag: "Who I Am",
             title: "About Me",
             description: "Combining academic research excellence with practical industry experience",
-            heading: "AI Researcher & Full Stack Developer with 9+ Years of Experience",
-            intro: "I'm a passionate technologist currently based in Seoul, South Korea, where I work as a Research Assistant at Soongsil University while completing my MS in AI Convergence. My journey spans from Pakistan to South Korea, combining rigorous academic research with hands-on software development.",
+            heading: "ML / Multimodal AI / Researcher / Full Stack & Mobile Developer — 9+ Years",
+            intro: "I'm a passionate technologist based in Seoul, South Korea. I completed my MS in AI Convergence (GPA 4.28/4.5) at Soongsil University and currently work part-time as a Full Stack Developer at Cublick Digital. My journey spans Pakistan to Korea, combining research in ML, multimodal AI, and LLMs with hands-on full-stack and mobile development.",
             research: "My research focuses on developing advanced retrieval systems that adapt to different document domains. I specialize in LLM fine-tuning, Agentic AI, RAG architectures, and have published 2 peer-reviewed papers in international journals. I've also developed and deployed 5 AI models on Hugging Face with optimization techniques like GGUF quantization achieving 75% size reduction.",
             development: "On the development side, I've built 20+ production applications across iOS, Android, Flutter, and web platforms. From AI-powered digital signage to property management systems, I bring ideas to life with clean, scalable code. I also maintain 2 open-source packages on pub.dev with 350+ weekly downloads.",
             highlight1: "Published Researcher",
@@ -47,20 +47,19 @@ const translations = {
             resume: "Download Resume (EN)",
             resume_kr: "Download Resume (KR)",
             exp1: {
-                title: "Research Assistant",
-                company: "Soongsil University, Seoul",
+                title: "Full Stack Developer (Part-time)",
+                company: "Cublick Digital Co., Ltd., Seoul",
                 date: "March 2024 - Present",
-                detail1: "LLM fine-tuning & RAG systems",
-                detail2: "Published 2 research papers",
-                detail3: "Teaching Assistant"
+                detail1: "Flutter, AngularJS, Native Android (Java, Kotlin)",
+                detail2: "Node.js, NestJS, MongoDB backend",
+                detail3: "Whisper STT, AI APIs, n8n automation pipelines"
             },
             exp2: {
-                title: "Full Stack Developer",
-                company: "Cublick Digital Co., Ltd.",
-                date: "March 2024 - Present",
-                detail1: "AI-powered digital signage",
-                detail2: "Flutter & Native Android",
-                detail3: "Node.js backend development"
+                title: "Research Assistant",
+                company: "Soongsil University, Seoul",
+                date: "March 2024 - January 2026",
+                detail1: "ML, LLMs (GPT-4, LLaMA, BERT), YOLO detection/segmentation",
+                detail2: "n8n AI workflows, 2 published papers, Teaching Assistant"
             },
             exp3: {
                 title: "Team Lead & Sr. Mobile Developer",
@@ -78,7 +77,7 @@ const translations = {
             thesis: "Thesis:",
             ms: {
                 degree: "Master of Science: AI Convergence",
-                year: "2024 - 2026 (Completed January 2026)",
+                year: "2026 · CGPA 4.28/4.5",
                 thesis: "Field-Adaptive Dense Retrieval of Structured Documents"
             },
             ms_cs: {
@@ -115,8 +114,11 @@ const translations = {
         skills: {
             tag: "What I Do",
             title: "Skills & Expertise",
-            description: "Comprehensive technical skills across AI/ML, mobile, and web development",
+            description: "ML, Multimodal AI, n8n, Whisper, YOLO, full-stack & mobile development",
             ai: "AI & Machine Learning",
+            vision: "Computer Vision & Multimodal",
+            automation: "AI Automation & Workflow",
+            audio: "Audio & Speech AI",
             mobile: "Mobile Development",
             web: "Web Development",
             database: "Databases",
@@ -159,7 +161,7 @@ const translations = {
             }
         },
         footer: {
-            tagline: "AI Researcher & Full Stack Developer",
+            tagline: "ML / Multimodal AI / Researcher / Full Stack & Mobile Developer",
             quick: "Quick Links",
             about: "About",
             research: "Research",
@@ -169,9 +171,7 @@ const translations = {
             resume_en: "Resume (EN)",
             resume_kr: "Resume (KR)",
             contact_title: "Contact",
-            copyright: "© 2026 Mudasir. All rights reserved.",
-            made: "Made with",
-            in: "in Seoul"
+            copyright: "© 2026 Mudasir. All rights reserved."
         }
     },
 
@@ -190,7 +190,7 @@ const translations = {
         },
         hero: {
             greeting: "안녕하세요, 저는",
-            subtitle: "AI 연구원 | 풀스택 개발자 | 모바일 앱 전문가",
+            subtitle: "AI 엔지니어 / 멀티모달 AI 개발자 / AI 연구원 / 풀스택 / 모바일 앱 전문가",
             description: "최첨단 AI 기술을 혁신적인 소프트웨어 솔루션을 통해 실제 응용 프로그램과 연결하는 데 열정적인 연구원이자 개발자입니다.",
             years: "년 경력",
             projects: "완료 프로젝트",
@@ -199,15 +199,15 @@ const translations = {
             contact: "연락하기",
             work: "작업 보기",
             available: "기회 모색 중",
-            degree: "AI융합 석사",
+            degree: "AI융합 석사 (4.28/4.5)",
             scroll: "스크롤하여 탐색"
         },
         about: {
             tag: "나는 누구인가",
             title: "소개",
             description: "학문적 연구 우수성과 실무 산업 경험의 결합",
-            heading: "9년 이상의 경력을 가진 AI 연구원 및 풀스택 개발자",
-            intro: "저는 현재 서울에 거주하며 숭실대학교에서 연구 보조원으로 일하면서 AI융합 석사 과정을 마쳤습니다. 파키스탄에서 한국으로의 여정은 엄격한 학문 연구와 실무 소프트웨어 개발을 결합합니다.",
+            heading: "ML / 멀티모달 AI / 연구원 / 풀스택 및 모바일 개발자 — 9년 이상",
+            intro: "저는 서울에 거주하며 숭실대학교 AI융합 석사(학점 4.28/4.5)를 마쳤고, 현재 큐블릭 디지털에서 풀스택 개발자로 파트타임 근무 중입니다. 파키스탄에서 한국까지 ML, 멀티모달 AI, LLM 연구와 풀스택·모바일 개발 경험을 쌓았습니다.",
             research: "제 연구는 다양한 문서 도메인에 적응하는 고급 검색 시스템 개발에 중점을 둡니다. LLM 미세 조정, 에이전트 AI, RAG 아키텍처를 전문으로 하며, 국제 학술지에 2편의 동료 평가 논문을 발표했습니다. 또한 GGUF 양자화와 같은 최적화 기술로 75% 크기 감소를 달성하여 Hugging Face에 5개의 AI 모델을 개발하고 배포했습니다.",
             development: "개발 측면에서는 iOS, Android, Flutter 및 웹 플랫폼에서 20개 이상의 프로덕션 애플리케이션을 구축했습니다. AI 기반 디지털 사이니지부터 부동산 관리 시스템까지, 깨끗하고 확장 가능한 코드로 아이디어를 실현합니다. 또한 주당 350회 이상 다운로드되는 pub.dev의 2개 오픈 소스 패키지를 유지 관리합니다.",
             highlight1: "출판 연구원",
@@ -217,20 +217,19 @@ const translations = {
             resume: "이력서 다운로드 (영문)",
             resume_kr: "이력서 다운로드 (한글)",
             exp1: {
-                title: "연구 보조원",
-                company: "숭실대학교, 서울",
+                title: "풀스택 개발자 (파트타임)",
+                company: "큐블릭 디지털, 서울",
                 date: "2024년 3월 - 현재",
-                detail1: "LLM 미세 조정 및 RAG 시스템",
-                detail2: "2편의 연구 논문 발표",
-                detail3: "조교"
+                detail1: "Flutter, AngularJS, 네이티브 Android (Java, Kotlin)",
+                detail2: "Node.js, NestJS, MongoDB 백엔드",
+                detail3: "Whisper STT, AI API, n8n 자동화 파이프라인"
             },
             exp2: {
-                title: "풀스택 개발자",
-                company: "큐블릭 디지털",
-                date: "2024년 3월 - 현재",
-                detail1: "AI 기반 디지털 사이니지",
-                detail2: "Flutter 및 네이티브 Android",
-                detail3: "Node.js 백엔드 개발"
+                title: "연구 보조원",
+                company: "숭실대학교, 서울",
+                date: "2024년 3월 - 2026년 1월",
+                detail1: "ML, LLM(GPT-4, LLaMA, BERT), YOLO 검출/분할",
+                detail2: "n8n AI 워크플로우, 논문 2편, 조교"
             },
             exp3: {
                 title: "팀 리드 및 선임 모바일 개발자",
@@ -248,7 +247,7 @@ const translations = {
             thesis: "논문:",
             ms: {
                 degree: "이학 석사: AI융합",
-                year: "2024 - 2026 (2026년 1월 완료)",
+                year: "2026 · 학점 4.28/4.5",
                 thesis: "구조화된 문서의 필드 적응형 밀집 검색"
             },
             ms_cs: {
@@ -285,8 +284,11 @@ const translations = {
         skills: {
             tag: "제가 하는 일",
             title: "기술 및 전문성",
-            description: "AI/ML, 모바일 및 웹 개발 전반에 걸친 포괄적인 기술",
+            description: "ML, 멀티모달 AI, n8n, Whisper, YOLO, 풀스택 및 모바일 개발",
             ai: "AI 및 머신러닝",
+            vision: "컴퓨터 비전 및 멀티모달",
+            automation: "AI 자동화 및 워크플로우",
+            audio: "오디오 및 음성 AI",
             mobile: "모바일 개발",
             web: "웹 개발",
             database: "데이터베이스",
@@ -329,7 +331,7 @@ const translations = {
             }
         },
         footer: {
-            tagline: "AI 연구원 및 풀스택 개발자",
+            tagline: "ML / 멀티모달 AI / 연구원 / 풀스택 및 모바일 개발자",
             quick: "빠른 링크",
             about: "소개",
             research: "연구",
@@ -339,9 +341,7 @@ const translations = {
             resume_en: "이력서 (영문)",
             resume_kr: "이력서 (한글)",
             contact_title: "연락처",
-            copyright: "© 2026 Mudasir. 모든 권리 보유.",
-            made: "만든 곳",
-            in: "서울"
+            copyright: "© 2026 Mudasir. 모든 권리 보유."
         }
     }
 };

@@ -52,8 +52,8 @@ mudasir13cs.github.io/
 │   └── translations.js
 └── docs/
     ├── mudasir.jpg
-    ├── Mudasir-Soongsil-University.pdf
-    ├── 무다시르_숭실대학교.pdf
+    ├── Mudasir-Syed.pdf
+    ├── 무다시르-사이드.pdf
     └── Field-Adaptive Dense Retrieval of Structured Documents.pdf
 ```
 
@@ -84,8 +84,8 @@ git push origin main
 
 You need to add these files:
 1. **mudasir.jpg** - Your profile photo
-2. **Mudasir-Soongsil-University.pdf** - English resume
-3. **무다시르_숭실대학교.pdf** - Korean resume
+2. **Mudasir-Syed.pdf** - English resume
+3. **무다시르-사이드.pdf** - Korean resume
 4. **Field-Adaptive Dense Retrieval of Structured Documents.pdf** - Your paper
 
 Get them from: https://github.com/mudasir13cs/mudasir13cs.github.io/tree/main/docs
